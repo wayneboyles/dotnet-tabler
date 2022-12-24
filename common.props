@@ -1,0 +1,26 @@
+<Project>
+
+	<!-- Version Information -->
+	<PropertyGroup>
+		<VersionPrefix>0.1.4</VersionPrefix>
+		<VersionSuffix>alpha</VersionSuffix>
+	</PropertyGroup>
+
+	<!-- Product Information -->
+	<PropertyGroup>
+		<Company>Wayne Boyles</Company>
+		<Product>Boyles.DotNet.Tabler</Product>
+		<ProductName>Boyles.DotNet.Tabler</ProductName>
+		<Authors>Wayne Boyles</Authors>
+	</PropertyGroup>
+
+	<!-- Language Settings -->
+	<PropertyGroup>
+		<LangVersion>latest</LangVersion>
+		<NoWarn>$(NoWarn);CS1591</NoWarn>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<RootNamespace>Boyles.DotNet.Tabler</RootNamespace>
+	</PropertyGroup>
+
+</Project>
